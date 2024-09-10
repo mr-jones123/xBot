@@ -1,0 +1,30 @@
+{
+  "name": "xbot",
+  "version": "1.0.0",
+  "description": "A simple chatbot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-jones123/xBot.git"
+  },
+  "author": "mr-jones123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mr-jones123/xBot/issues"
+  },
+  "homepage": "https://github.com/mr-jones123/xBot#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.17.1",
+    "cors": "^2.8.5",
+    "express": "^4.20.0"
+  },
+  "devDependencies": {
+    "commitlint": "^19.4.1",
+    "semantic-release": "^24.1.0",
+    "tailwindcss": "^3.4.10"
+  }
+}
