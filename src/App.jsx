@@ -1,12 +1,8 @@
 import React from 'react';
-import Button from './Button.jsx';
-
+import HeroSection from './components/HeroSection.jsx';
 function App() {
   return (
-    <div>
-      
-    </div>
+      <HeroSection/>
   );
 }
-
 export default App;

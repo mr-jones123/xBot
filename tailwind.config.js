@@ -18,6 +18,9 @@ export default {
           colors: {
               licorice : "#220C10",
               white : "#FFFFF0"
+          },
+          fontSize:{
+            "10xl" : "16.5rem"
           }
       },
   }
