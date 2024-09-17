@@ -1,9 +1,15 @@
 import "../output.css";
 import Button from "./Button.jsx";
+import { Link } from 'react-router-dom';
+import { useEffect } from "react";
 
 function HeroSection() {
+  useEffect(()=>{
+    document.title = "xBot";
+}),[];
+
   return (
-    <section className="min-h-screen px-6 py-10 lg:py-16 lg:px-16 xl:px-20 2xl:px-28">
+    <section className="min-h-screen  px-6 py-10 lg:py-16 lg:px-16 xl:px-20 2xl:px-28">
       <div
         className="border border-white rounded-lg min-h-screen lg:min-h-[50vh] 2xl:min-h-[60vh] flex flex-col items-center justify-center gap-9 py-16 text-center
          lg:flex-row lg:justify-between lg:items-center lg:px-14 2xl:px-52"
@@ -21,8 +27,12 @@ function HeroSection() {
             Next Generation.
           </h3>
           <div className="flex flex-col items-center gap-6 lg:flex-row lg:gap-6">
-            <Button text="Log in" className="lg:text-2xl 2xl:text-3xl"/>
-            <Button text="Sign In" className="lg:text-2xl 2xl:text-3xl" />
+            <Link to = "/login">
+              <Button text="Log in" className=" text-lg lg:text-2xl 2xl:text-3xl hover:btn-turnToBlack-hover"/>
+            </Link>
+            <Link to="/signup">
+              <Button text="Sign Up" className="text-lg  lg:text-2xl 2xl:text-3xl hover:btn-turnToBlack-hover" />
+            </Link>
           </div>
         </div>
       </div>

@@ -35,7 +35,13 @@
       }
 }
 @layer components{
-  .btn-hover{
-    @apply bg-transparent border border-white text-white
+  .btn-turnToWhite-hover{
+    @apply bg-white border border-licorice text-licorice;
+  }
+  .btn-turnToBlack-hover{
+    @apply bg-black border border-white text-white;
+  }
+  .input-focus-black-border{
+    @apply focus:border-2
   }
 }
