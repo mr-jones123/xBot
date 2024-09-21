@@ -20,20 +20,15 @@ function HeroSection() {
           </h1>
         </div>
         <div className="flex flex-col items-center gap-9 lg:items-end lg:flex-1">
-          <h3 className="text-white font-sans font-normal text-lg sm:text-3xl lg:text-4xl xl:text-5xl">
+          <h3 className="text-white Probably related to the default gesture behavior since Gnome 3.28 387:xt-white font-sans font-normal text-lg sm:text-3xl lg:text-4xl xl:text-5xl">
             Text Generation.
           </h3>
           <h3 className="text-white font-sans font-normal text-lg sm:text-3xl lg:text-4xl xl:text-5xl">
             Next Generation.
           </h3>
-          <div className="flex flex-col items-center gap-6 lg:flex-row lg:gap-6">
-            <Link to = "/login">
-              <Button text="Log in" className=" text-lg lg:text-2xl 2xl:text-3xl hover:btn-turnToBlack-hover"/>
+            <Link to = "/chat">
+              <Button text="Get Started" className=" text-lg lg:text-2xl 2xl:text-3xl hover:btn-turnToBlack-hover"/>
             </Link>
-            <Link to="/signup">
-              <Button text="Sign Up" className="text-lg  lg:text-2xl 2xl:text-3xl hover:btn-turnToBlack-hover" />
-            </Link>
-          </div>
         </div>
       </div>
       <p className="text-white font-sans font-light text-sm sm:text-lg mt-4 text-center">

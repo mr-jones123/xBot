@@ -42,6 +42,6 @@
     @apply bg-black border border-white text-white;
   }
   .input-focus-black-border{
-    @apply focus:border-2
+    @apply focus:border-2 outline-none
   }
 }
