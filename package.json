@@ -8,7 +8,7 @@
   "scripts": {
     "start-frontend": "vite",
     "build": "vite build",
-    "start-backend": "nodemon ./src/api/server.js",
+    "start-backend": "node --env-file .env ./src/api/server.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "build-css": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
@@ -43,6 +43,7 @@
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.20",
     "commitlint": "^19.4.1",
+    "dotenv": "^16.4.5",
     "eslint": "^9.10.0",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
